@@ -6,13 +6,13 @@
 
 #Requirements
 
-##PHP > 7.2.x
+##PHP >= 7.3.11
 
-[download](https://www.php.net/downloads.php#v7.4.4)
+[download](https://www.php.net/downloads.php#v7.3.11)
 
 Finished downloading extract all content
 
-##Composer
+##Composer 1.9
 
 [How to install](https://getcomposer.org/download/)
 
@@ -34,15 +34,18 @@ Choose a location with simple access. `example c:\project`
 
 All commands must be executed in Prompt Comand at the project folder.
 
-##Install database tables
+##Create autoload
+
 ```
-php artisan migrate:install
+composer dump-autoload
 ```
 
-##Install data example
+##Install database tables
+
 ```
-php artisan db:seed
+php artisan migrate:refresh --seed
 ```
+
 #Execute
 
 All commands must be executed in Prompt Comand at the project folder.
