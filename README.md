@@ -41,6 +41,10 @@ php artisan serve
 ##Open
 [home](http://127.0.0.1:8000)
 
+###Administrador Login
+user: `admin@dailynews.com`
+password: `102030`
+
 #Help & Suporte
 [seufetelli@gmail.com](mailto:seufetelli@gmail.com)
 
