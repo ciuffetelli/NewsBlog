@@ -1,0 +1,77 @@
+*{
+    font-family: 'Roboto';
+}
+body{
+    width: 100vw;
+    background-color: #F5EFEB;
+    overflow-x: hidden; 
+}
+/* body a, link{
+    text-decoration: none;
+}
+body a:hover, link:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+    cursor: pointer;
+} */
+body header{
+    width: 100vw;
+    margin-top: 5px;
+}
+h1, h2, h3, h4{
+    text-shadow: 1px 1px 1px #000; 
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+h4{
+    font-weight: 400;
+}
+p{
+    font-size: 0.9rem;
+}
+/* header .access{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    margin: 0px;
+}
+header .update{
+    position: absolute;
+    top: 25px;
+    right: 5px;
+} */
+main{
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-sizing: initial;
+}
+.login{
+    position: absolute;
+    z-index: 999;
+    background-color: #666;
+    width: 300px;
+    height: 500px;
+}
+.tag{
+    padding: 5px;
+}
+.red{
+    background-color: rgb(182, 41, 41);
+    border: 1px solid rgb(201, 63, 63);
+    color:#fff;
+}
+.blue{
+    background-color: rgb(67, 41, 182);
+    border: 1px solid rgb(63, 127, 201);
+    color:#fff;
+}
